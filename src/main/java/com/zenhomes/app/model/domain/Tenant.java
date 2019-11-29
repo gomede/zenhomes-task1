@@ -1,4 +1,6 @@
-package com.zenhomes.app;
+package com.zenhomes.app.model.domain;
+
+import com.zenhomes.app.model.types.Type;
 
 public class Tenant extends Person {
 

@@ -1,4 +1,4 @@
-package com.zenhomes.app;
+package com.zenhomes.app.model.domain;
 
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.zenhomes.app;
+package com.zenhomes.app.model.types;
 
 public enum Type {
     NaturalPerson,

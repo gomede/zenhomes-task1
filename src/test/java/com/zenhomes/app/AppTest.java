@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.zenhomes.app.model.domain.Apartment;
+import com.zenhomes.app.model.domain.Contract;
+import com.zenhomes.app.model.domain.Landlord;
+import com.zenhomes.app.model.domain.Person;
+import com.zenhomes.app.model.domain.Tenant;
+import com.zenhomes.app.model.types.Type;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
