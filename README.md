@@ -1,4 +1,4 @@
-# zenhomes
+# zenhomes-task1
 **Task 1: Domain Modelling**
 Repository name: domain-rent 
 
