@@ -13,12 +13,12 @@ We suggest ER diagram as an outcome of this task but you can choose a format tha
 
 ![ER](er.png)
 
-Figure 1: The Entity Relationship Diagram. The contract relation stores the transactions between landlord, apartment, and tenant. Besides, the hierachy person, landlord, and tenant is responsible to store the state of these objects.
+**Figure 1**: The Entity Relationship Diagram. The contract relation stores the transactions between landlord, apartment, and tenant. Besides, the hierachy person, landlord, and tenant is responsible to store the state of these objects.
 
 ![ER](cd.png)
 
-Figure 2: The Class Diagram. This diagram represents the oriented object model which allows to create a  object-relational mapping (ORM) by a framework such as Hibernate. This feature should be used to create a cache (using a redis).
+**Figure 2**: The Class Diagram. This diagram represents the oriented object model which allows to create a  object-relational mapping (ORM) by a framework such as Hibernate. This feature should be used to create a cache (using a redis).
 
 Sources
-[Hibernate](https://hibernate.org/)
-[Redis](https://redis.io/)
+* [Hibernate](https://hibernate.org/)
+* [Redis](https://redis.io/)
