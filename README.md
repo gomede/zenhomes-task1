@@ -44,7 +44,7 @@ The result should be similar to the Figure 3 below.
 
 **DDL and DML Test**
 
-There is a DDL and DML script to test the Entity Relationship model. To execute them, it is needs the MySQL server and to perform the ddl.sql file. In this file there is the commands to create a schema, relations, inserts, and a select to retrieval the data. An example of the information retrieval is shown in Figure 4.
+There is a DDL and DML script to test the Entity Relationship model. To execute them, it is needs the MySQL server and to perform the ddl.sql file (it is possible to use others DBMS such as Oracle, DB2, PostgreSQL, MSSQL, etc). In this file there is the commands to create a schema, relations, inserts, and a select to retrieval the data. An example of the information retrieval is shown in Figure 4.
 
 ![DDL](ddl.png)
 
