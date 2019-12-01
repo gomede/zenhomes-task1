@@ -49,3 +49,11 @@ There is a DDL and DML script to test the Entity Relationship model. To execute 
 ![DDL](ddl.png)
 
 **Figure 4**: An example of the information retrieval. It is possible build this using a framework such as Hibernate in many ways: (a) by mapping, (b) by criteria, (c) by HQL, (d) Native SQL, and (e) Named Queries.
+
+
+The result (first row) is shown in Figure 5. This data should be used to populate the objects of object model.
+
+![First](first.png)
+
+**Figure 5**: The first row that result from the DML from Figure 4.
+
