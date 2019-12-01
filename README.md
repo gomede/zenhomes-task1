@@ -33,8 +33,11 @@ Test Case Suite
 
 There is a test case suite design by JUnit to test the use cases. To execute them, it is needs to have the Apache Maven and a Git client. To execute the tests, follow these steps:
 
-1 git clone https://github.com/gomede/zenhomes.git
-2 mvn clean install
+1. git clone https://github.com/gomede/zenhomes.git
+2. mvn clean install
 
+The result should be similar to the Figure 3 below.
 
+![Test](test.png)
 
+**Figure 3**: The Test Case Suite' tests. To get more details, please open the com/zenhomes/app/AppTest.java.
