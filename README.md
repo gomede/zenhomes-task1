@@ -13,3 +13,6 @@ We suggest ER diagram as an outcome of this task but you can choose a format tha
 
 ![ER](er.png)
 Figure 1: The ER diagram
+
+![ER](cd.png)
+Figure 2: The CD diagram
