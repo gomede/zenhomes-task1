@@ -1,6 +1,6 @@
 # zenhomes
-Task 1: Doman Modelling 
-Repository name: domain-<id> 
+**Task 1: Domain Modelling**
+Repository name: domain-rent 
 
 Please create the domain model for the following use cases: 
 1) A landlord can rent out a separate apartment, the whole building or several apartments to another party. 
@@ -19,17 +19,17 @@ We suggest ER diagram as an outcome of this task but you can choose a format tha
 
 **Figure 2**: The Class Diagram. This diagram represents the oriented object model which allows to create a  object-relational mapping (ORM) and Validator by using a framework such as Hibernate. Moreover, this feature should be used to create a cache (by using a second cache lavel of Hibernate or a redis).
 
-Sources
+**Sources**
 * [Hibernate](https://hibernate.org/)
 * [Redis](https://redis.io/)
 
-Assumptions
+**Assumptions**
 * The contracts of a complete building should generate a contract for each apartment. This allows for greater granularity management and impacts on any analytical models.
 * The relationship between the landlord and the apartment, together with the contract, makes it possible to keep track of any changes in ownership.
 * Attributes were kept as simple as possible to understand the relationship between model objects.
 * This model was based on the following principles: (a) ubiquitous language, (b) bounded contexts, and (c) context maps.
 
-Test Case Suite
+**Test Case Suite**
 
 There is a test case suite design by JUnit to test the use cases. To execute them, it is needs to have the Apache Maven and a Git client. To execute the tests, follow these steps:
 
@@ -41,3 +41,9 @@ The result should be similar to the Figure 3 below.
 ![Test](test.png)
 
 **Figure 3**: The Test Case Suite' tests. To get more details, please open the com/zenhomes/app/AppTest.java.
+
+**DDL and DML Test**
+
+There is a DDL and DML script to test the Entity Relationship model. To execute them, it is needs the MySQL server and to perform the ddl.sql file. In this file there is the commands to create a schema, relations, inserts, and a select to retrieval the data. An example of the information retrieval is shown in Figure 4.
+
+![DDL](ddl.png)
