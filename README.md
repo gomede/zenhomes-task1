@@ -29,4 +29,12 @@ Assumptions
 * Attributes were kept as simple as possible to understand the relationship between model objects.
 * This model was based on the following principles: (a) ubiquitous language, (b) bounded contexts, and (c) context maps.
 
+Test Case Suite
+
+There is a test case suite design by JUnit to test the use cases. To execute them, it is needs to have the Apache Maven and a Git client. To execute the tests, follow these steps:
+
+1 git clone https://github.com/gomede/zenhomes.git
+2 mvn clean install
+
+
 
