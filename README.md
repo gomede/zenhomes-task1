@@ -47,3 +47,5 @@ The result should be similar to the Figure 3 below.
 There is a DDL and DML script to test the Entity Relationship model. To execute them, it is needs the MySQL server and to perform the ddl.sql file. In this file there is the commands to create a schema, relations, inserts, and a select to retrieval the data. An example of the information retrieval is shown in Figure 4.
 
 ![DDL](ddl.png)
+
+**Figure 4**: An example of the information retrieval. It is possible build this using a framework such as Hibernate in many ways: (a) by mapping, (b) by criteria, (c) by HQL, (d) Native SQL, and (e) Named Queries.
