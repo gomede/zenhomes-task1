@@ -57,3 +57,8 @@ The result (first row) is shown in Figure 5. This data should be used to populat
 
 **Figure 5**: The first row that result from the DML from Figure 4.
 
+**Notes**
+
+* There is a *builder design pattern* in class Contract. This is a creational pattern and helps to create objects in a simple way.
+* Questions related to data optimization (indexes, statistics, and so on) were ommited in this model.
+
