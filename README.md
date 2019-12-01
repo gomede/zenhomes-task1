@@ -22,3 +22,11 @@ We suggest ER diagram as an outcome of this task but you can choose a format tha
 Sources
 * [Hibernate](https://hibernate.org/)
 * [Redis](https://redis.io/)
+
+Assumptions
+* The contracts of a complete building should generate a contract for each apartment. This allows for greater granularity management and impacts on any analytical models.
+* The relationship between the landlord and the apartment, together with the contract, makes it possible to keep track of any changes in ownership.
+* Attributes were kept as simple as possible to understand the relationship between model objects.
+* This model was based on the following principles: (a) ubiquitous language, (b) bounded contexts, and (c) context maps.
+
+
